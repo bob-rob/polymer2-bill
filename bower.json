@@ -1,0 +1,21 @@
+{
+  "name": "polymer2-bill",
+  "dependencies": {
+      "polymer": "Polymer/polymer#1.1.4"
+  },
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "bob-rob <barb.bob@telus.net>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/bob-rob/polymer2-bill",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
