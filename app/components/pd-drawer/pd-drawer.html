@@ -1,6 +1,9 @@
+<link rel="import" href="../../../bower_components/paper-icon-button/paper-icon-button.html" />
+
 <dom-module id="pd-drawer">
+    <link rel="import" type="css" href="../../../app/components/pd-drawer/pd-drawer.css" />
     <template>
-       <div id="drawer" class$="{{mainClasses}}">
+        <div id="drawer" class$="{{mainClasses}}">
             <div class="c-p paper-toolbar p-l-05 p-r-05 shadow-bottom">
                 <div class="scrim" on-click="closeDrawers"></div>
                 <paper-icon-button class="left-show-btn f-left" icon="menu" title="menu" on-click="toggleLeft"></paper-icon-button>
@@ -112,6 +115,6 @@
             this.rightLocked = !this.rightLocked;
             this.closeDrawers();
             this.mobileModeCheck();
-        }    
+        }
     });
 </script>
