@@ -71,7 +71,7 @@ paper-icon-button {
   width: 15em;
   transform: translate(15em); }
 
-.right-show .right-drawer {
+.right-show .right-drawer {  
   transform: translate(-15em); }
 
 .scrim {

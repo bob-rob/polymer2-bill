@@ -4,8 +4,20 @@
     <link rel="import" type="css" href="../../../app/components/pd-drawer/pd-drawer.css" />
     
     <style>
-        .main-site{
-            background-color:var(--primary-color-dark);
+        :host{
+            padding: 10px;
+        }
+        :root{
+            background-color: #888888;
+        }
+        .left-drawer ::content{
+            background-color: #888888;
+        }
+        .right-drawer .pin-btn ::shadow{
+            background-color: #3367d6;
+        }
+        .left-drawer .pin-btn /deep/{
+            background-color:#880000;
         }
     </style>
     
